@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c578fafba.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="#"><i class="fa-solid fa-bolt-lightning"></i> SWIFT</a></div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SUPPORT</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
+        <a href="#" class="action-btn">Get Started</a>
+        <div class="toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SUPPORT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#" class="action-btn">Get Started</a></li>  
+      </div>
+    </header>
+    <script>
+        document.querySelector('.toggle-btn').onclick = () =>{
+    document.querySelector('.dropdown_menu').classList.toggle('active');
+     }
+    </script>
+    <section class="hero">
+        <div class="intro">
+            <h1>Modern online and offline<br> payments for Africa</h1>
+            <p>Swift helps businesses in Africa get paid by anyone,<br> anywhere in the world</p>
+        </div>
+        
+    </section>
+    <section class="hero2">
+        <div class="intro2">
+            <h1>Simple, easy payments</h1>
+            <p>Building a business is hard. Getting paid shouldn't be.</p>
+        </div>
+    </section>
+    <section class="hero3">
+        <div class="intro3">
+            <div>
+              <img src="/media/Collect-Payments-for-Multiple-Channels-1.1.gif">
+            </div>
+            <div class="intro3_write">
+              <h1>Delight customers with a<br> seamless payments<br> experience</h1>
+              <p>Give your customers the gift of modern, frictionless, painless payments. Integrate SWIFT once and let your customers pay you however they want.</p>
+              <div class ="opt">
+                <ul>
+                  <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> Card</li>
+                  <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> Bank Account</li>
+                  <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> Bank Transfer</li>
+                  <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> USSD</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> Apple Pay</li>
+                    <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> Visa QR</li>
+                    <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> Mobile Money</li>
+                    <li><i class="fa-solid fa-check" style="color: #209d4c;"></i> POS</li>
+                </ul>
+              </div>
+              <div class="intro3_5">
+                <h1>Enjoy phenomenal transaction success rates</h1>
+                <p>We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.</p>
+                <a href="#"><i class="fa-solid fa-greater-than"></i>  Find out how we achieve high success rates</a>
+              </div>  
+            </div>
+        </div>
+
+    </section>
+    <section class="hero4">
+      <div class="intro44"></div>
+        <div>
+            <video muted autoplay loop>
+                <source src="\media\Advanced-Fraud-Protection.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div class="intro4">
+            <h1>Protect yourself and your customers with advanced fraud detection</h1>
+            <p>SWIFT's combination of automated and manual fraud systems protect you from fraudulent transactions and associated chargeback claims.</p>
+            <h1>Detailed reporting for accounting, reconciliation, and audits</h1>
+            <p>Understand your customers purchase patterns and do easy reconciliations with a robust data Dashboard and easy exports.</p>
+        </div>    
+      </div>
+    </section>
+    <section class="hero5">
+        <div class="intro5">
+            <div class="cap">
+                <h1> Trusted by 80,000+ businesses</h1>
+                <p>Thousands of organizations of all sizes trust Paystack to grow their business.</p>
+            </div>
+            <div class="posts">
+                <div class="post1">
+                    <img src="\media\For-International-Businesses_180823_165939.svg">
+                    <h3>SWIFT for<br>
+                        Global Brands</h3>
+                    <p>We help global brands accept payments from across Africa</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="post2">
+                    <img src="\media\For-Entrepreneurs_180823_165709.svg">
+                    <h3>SWIFT for<br>
+                        Entrepreneurs</h3>
+                    <p>From startup to scale-up, we can support you at every stage of your businesses’ growth</p>
+                    <a href="#">Learn More</a>    
+                </div>
+                <div class="post3">
+                  <img src="\media\For-Large-Corporations_180823_165502.svg">
+                  <h3>SWIFT for<br>Large Organizations</h3>
+                  <p>Paystack helps many of the largest corporate and government organizations in Nigeria get paid quickly and securely.</p>
+                  <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="hero6">
+        <div class="fform">
+            <form onsubmit="alert('Successfully Sent')">
+                <fieldset>
+                    <h1>Contact Us</h1>
+                    <div class="input-group">
+                      <label for="fullname">Full Name</label><br>
+                      <input type="text" id="fullname" placeholder="Your Name" required/>
+                    </div>
+                    <div class="input-group">
+                      <label for="email">E-mail Address</label><br>
+                      <input type="email" id="email" placeholder="example@gmail.com" required/>
+                      </div>
+                    <div class="input-group">
+                      <label for="phonenumber">Phone Number</label><br>
+                      <input type="tel" id="phonenumber" placeholder="+234 1234567890" maxlength="11" required/>
+                    </div>
+                    <label id="mes">Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button id="but2" type="submit">SEND</button>  
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+      <div class="foottext">    
+        <h1>
+            <i class="fa-solid fa-bolt-lightning"></i> SWIFT
+        </h1>
+        <p>You can reach out to us on these platforms</p>
+        <p><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-google-plus-g"></i></p>
+        <p id="copy">Copyright ©2023 SWIFT. Designed by Allen</p>
+      </div>
+    </section>
+  </body>    
+</html>    
